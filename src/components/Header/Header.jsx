@@ -12,17 +12,17 @@ function Header() {
                    
                 <div className={'right  flex space-between flex-direction-column space-around'}>
                   <div className={'upper'}>
-                        <span className={'link'}>register</span>
+                        <span className={'link cursor-pointer'}>register</span>
                         <span className={'border'}></span>
-                        <span className={'link'}>login</span>
+                        <span className={'link cursor-pointer'}>login</span>
                   </div>
 
                   <div className={'lower'}>
-                        <span  className={'lang active'}>En</span>
-                        <span  className={'lang '}>Ar</span>
+                        <span  className={'lang active cursor-pointer'}>En</span>
+                        <span  className={'lang cursor-pointer'}>Ar</span>
                         <span  className={'border'}></span>
-                        <span className={'label lg'}>A</span>
-                        <span className={'label sm'}>A</span>
+                        <span className={'label lg cursor-pointer'}>A</span>
+                        <span className={'label sm cursor-pointer'}>A</span>
                   </div>
                 </div>
 
