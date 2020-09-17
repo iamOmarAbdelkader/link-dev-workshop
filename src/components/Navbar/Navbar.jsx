@@ -1,5 +1,4 @@
 import React from 'react';
-import LinkDevLogo from '../../assets/images/linkdevlogo.png'
 import './Navbar.style.sass'
 import navArrowDown from '../../assets/images/navArrowDown.png';
 import Search from '../../assets/images/Search.png';
