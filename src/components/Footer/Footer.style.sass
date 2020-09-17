@@ -1,0 +1,71 @@
+@import '../../styles/_variables'
+.form-control
+    height: 46px
+    padding: 15px 14px
+    border: none
+    outline: 0
+    font-family: $font-calibri-regular
+footer#app-footer
+    .footer-inner
+        .upper
+            background-color: $dark-gray
+            padding-top: 26px
+            padding-bottom: 40px
+            .upper-inner
+                .col
+                    flex: 0.175
+                    &:last-child
+                        flex: 0.3
+                    h2
+                        font-family: $font-optima
+                        font-size: 18px
+                        font-weight: lighter
+                        color: $darker-gray
+
+                    ul
+                        list-style-type: none
+                        li
+                            cursor: pointer
+                            font-family: $font-calibri-regular
+                            font-size: 14px
+                            line-height: 24px
+                            font-weight: lighter
+                            color: $darker-gray
+                    .form
+                        h2 
+                            font-size: 20px
+                        .form-group
+                            display: flex
+                            margin-top: 15px
+                            input
+                              @extend .form-control
+                              flex-grow: 1
+                            button
+                                @extend .form-control
+                                background-color: $light-eastern-blue
+                                color: #fff
+                                flex-grow: 0.5
+        .lower
+            background-color: $dark-eastern-blue
+            padding: 25px 0
+            .lower-inner
+                display: flex;
+                justify-content: space-between
+                .left
+                    span
+                        font-family: $font-calibri-regular
+                        display: inline-block
+                        color: #fff
+                        font-size: 16px
+                        border-right: 1px solid #fff
+                        padding-right: 10px
+                        margin-right: 10px
+                        &:last-child
+                            border-right: none
+                            padding-right: 0
+                            margin-right: 0
+                .right
+                    p.copy-rights
+                        color: #ffffff
+                        font-family: $font-calibri-regular
+                        font-size: 16px
