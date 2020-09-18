@@ -3,4 +3,6 @@ export { default as Navbar } from "./Navbar";
 export { default as Footer } from "./Footer";
 export { default as Slider } from "./Slider";
 export { default as Achivements } from "./Achivements";
-// export { default as Achivements } from "./Achivements";
+export { default as PressReleases } from "./PressReleases";
+export { default as PressReleaseCard } from "./PressReleaseCard";
+// export { default as PressReleases } from "./PressReleases";

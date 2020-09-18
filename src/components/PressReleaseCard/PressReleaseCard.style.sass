@@ -1,0 +1,45 @@
+@import '../../styles/_variables'
+.press-release-card
+    min-height: 393px
+    width: 100%
+    background-size: cover
+    background-repeat: no-repeat
+    &:hover .over-lay
+        background: $card-hover-green
+    &:hover .read-more-btn
+        background: transparent
+        border: 1px solid #fff
+    &-inner
+       padding-left: 25px
+       padding-right: 25px
+       .date
+        font-family: $font-optima
+        color: #fff
+        padding-top: 10px
+        text-transform: capitalize
+        .day
+            font-size: 60px
+        .month
+            font-size: 30px
+        .day-name-and-year
+            font-size: 18px
+    p
+        font-family: $font-calibri-regular
+        font-size: 16px        
+        margin-top: 17px
+        color: #fff
+    .read-more-btn
+        transition: background-color 0.5s linear , border 0.5s linear
+        text-transform: capitalize
+        width: 162px
+        height: 46px
+        font-family: $font-optima
+        font-size: 18px
+        color: #fff
+        outline: 0
+        margin-top: 70px
+        background-color: $metallic-silver
+        border: 1px solid $metallic-silver
+        position: absolute
+        bottom: 62px
+
