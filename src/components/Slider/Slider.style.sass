@@ -1,0 +1,76 @@
+@import '../../styles/_variables'
+section#app-slider
+    background-image: url('../../assets/images/sliderBg.png')
+    min-height: 560px
+    background-size: cover
+    background-repeat: no-repeat
+    position: relative
+    .slider-inner
+        padding-top: 150px
+        .carousel-container
+            .slider-arrow
+                width: 70px
+                height: 128px
+            .slide
+                p
+                    width: 500px;
+                    text-align: center;
+                    line-height: 1.7;
+                    font-family: $font-optima
+                    font-size: 24px
+                    color: #fff
+                    span.foundation-name
+                        font-size: 30px
+                        color: $yellow-green
+                    span.health-care
+                        $font-size: 30px
+                .actions
+                    text-align: center
+                    margin-top: 25px
+                    button
+                        width: 162px
+                        height: 46px
+                        font-family: $font-optima
+                        font-size: 18px
+                        color: #fff
+                        outline: 0
+                        &.read-more
+                            margin-right: 10px
+                            background-color: transparent
+                            border: 1.5px solid
+                        &.donate
+                            background-color: $dark-yellow-green
+                            border: 1.5px solid $dark-yellow-green
+        .scroll-down
+            margin-top: 125px;
+            &-inner
+                display: flex
+                align-items: center
+                justify-content: center
+                flex-direction: column
+                cursor: pointer
+                img
+                    width: 20px
+                    height: 28px
+                .line
+                    height: 20px
+                    width: 1px
+                    background-color: #fff
+                    margin-top: -7px
+                .rect
+                    width: 10px
+                    height: 16px
+                    border: 1px solid #fff
+                    margin-top: -7px
+                p
+                    font-family: $font-segoe-ui
+                    font-size: 14px
+                    color: #fff
+                    margin-top: 5px
+
+
+
+
+
+
+
