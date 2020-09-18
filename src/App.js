@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.sass';
-import { Achivements, Footer, Header, Navbar , PressReleases, Slider } from './components'
+import { Achivements, Footer, Header, Navbar , PressReleases, Programs, Slider } from './components'
 function App() {
   return (
     <div className="App">
@@ -8,7 +8,7 @@ function App() {
        <Navbar/>
        <Slider/>
        <Achivements />
-       <hr />
+       <Programs />
        <PressReleases />
        <Footer/>
     </div>

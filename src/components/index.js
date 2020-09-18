@@ -5,4 +5,6 @@ export { default as Slider } from "./Slider";
 export { default as Achivements } from "./Achivements";
 export { default as PressReleases } from "./PressReleases";
 export { default as PressReleaseCard } from "./PressReleaseCard";
+export { default as Programs } from "./Programs";
 // export { default as PressReleases } from "./PressReleases";
+
