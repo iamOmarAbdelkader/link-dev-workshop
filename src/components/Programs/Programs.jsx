@@ -11,7 +11,7 @@ import telescope from '../../assets/images/telescope.png';
 function Programs() {
   return (
     <section id={'programs'}>
-      <div className={'container'}>
+      <div className={'container-fluid'}>
         <div className={'programs-inner'}>
           <h2>Today’s Investments, Tomorrow’s Cures</h2>
           <p>Support the different programs we have below</p>

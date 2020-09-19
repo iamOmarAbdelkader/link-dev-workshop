@@ -5,9 +5,10 @@ function Footer() {
     <footer id={'app-footer'}>
             <div className={'footer-inner'}>
                <div className={'upper'}>
-                  <div className={'container'}>
-                   <div className={'upper-inner flex'}>
-                      <div className={'col'}>
+                  <div className={'container-fluid'}>
+                   <div className={'upper-inner'}>
+                     <div className={'row'}>
+                      <div className={'col-md-2 item'}>
                         <h2>Who We Are</h2>
                         <ul>
                           <li>About Us</li>
@@ -18,7 +19,7 @@ function Footer() {
                           <li>FAQ’s</li>
                         </ul>
                       </div>
-                      <div className={'col'}>
+                      <div className={'col-md-2 item'}>
                         <h2>What we do</h2>
                         <ul>
                           <li>Research</li>
@@ -27,14 +28,14 @@ function Footer() {
                           <li>in2Hc</li>
                         </ul>  
                       </div>  
-                      <div className={'col'}>
+                      <div className={'col-md-2 item'}>
                           <h2>Get Involved</h2>
                           <ul>
                             <li>Donate</li>
                             <li>Partners</li>
                           </ul>   
                       </div>  
-                      <div className={'col'}>
+                      <div className={'col-md-2 item'}>
                           <h2>Media Center</h2>
                           <ul>
                             <li>Photo Gallery</li>
@@ -42,7 +43,9 @@ function Footer() {
                             <li>Events</li>
                           </ul>    
                       </div>  
-                      <div className={'col'}>
+
+
+                      <div className={'col-md-4 item'}>
                           <h2>Contact Us</h2>
                           <ul>
                             <li>Contact Details</li>
@@ -55,14 +58,18 @@ function Footer() {
                               <button>Subscribe</button>
                             </div>
                           </div>   
-                      </div>  
+
+                          </div>
+                          {/* ./row */}
+                      </div>
+
                    </div>
                   </div>        
                 </div>  
                      {/* ./upper */}
 
                 <div className={'lower'}>
-                  <div className={'container'}>
+                  <div className={'container-fluid'}>
                     <div className={'lower-inner'}>
                         <div className={'left'}>
                             <span>Terms & Conditions</span>

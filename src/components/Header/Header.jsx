@@ -4,7 +4,7 @@ import './Header.style.sass'
 function Header() {
   return (
     <header id={'app-header'}>
-        <div className={'container'}>
+        <div className={'container-fluid'}>
             <div className={'header-inner  flex space-between'}>
                 <div className={'left'}>
                    <img src={LinkDevLogo} className={'header-logo'} alt={'link dev logo'} />

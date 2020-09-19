@@ -1,10 +1,9 @@
 import React from 'react';
 import './Achivements.style.sass'
 import Carousel from 'react-elastic-carousel'
-import sliderArrowLeft from '../../assets/images/sliderArrowLeft.png';
-import sliderArrowRight from '../../assets/images/sliderArrowRight.png';
-import mouse from '../../assets/images/mouse.png';
 import graduation from '../../assets/images/graduation.png';
+import { useMediaPredicate } from "react-media-hook";
+import { TABLET_MAX_WIDTH_SCREEN_SIZE } from '../../constants';
 
 const SliderArrowContainer = ({children})=> <div className={'arrow'}>{children}</div>
 const renderArrow = ({type, onClick})=><div className={'arrow-container'} onClick={onClick}>{type ==='PREV' ?<SliderArrowContainer><i className={'fa fa-chevron-left'} /></SliderArrowContainer>: <SliderArrowContainer><i className={'fa fa-chevron-right'} /></SliderArrowContainer> }</div>
@@ -29,16 +28,18 @@ const Slide = ()=>(
 
 
 function Slider() {
+
+  const isNotDesktop = useMediaPredicate(`(max-width: ${TABLET_MAX_WIDTH_SCREEN_SIZE})`);
   return (
     <section id={'achivements'}>
-            <div className={'container'}>
+            <div className={'container-fluid'}>
               <div className={'achivements-inner'}>
                   <div className={'intro'}>
                         <h2>How we have helped</h2>
                         <p>See how Al Jalila Foundation have promoted change locally and to the world</p>
                   </div>
                   <div className={'slider'}>
-                  <Carousel renderArrow={renderArrow} pagination={false} itemsToShow={2}>
+                  <Carousel renderArrow={renderArrow} pagination={false} itemsToShow={isNotDesktop?1:2}>
                      <Slide />
                      <Slide />
                      <Slide />

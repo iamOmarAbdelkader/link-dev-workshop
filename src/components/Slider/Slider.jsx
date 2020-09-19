@@ -21,7 +21,7 @@ const Slide = ()=>(
 function Slider() {
   return (
     <section id={'app-slider'}>
-              <div className={'container'}>
+              <div className={'container-fluid'}>
                 <div className={'slider-inner'}>
                   <div className={'carousel-container'}>
                       <Carousel enableAutoPlay={true} renderArrow={renderArrow}  pagination={false} itemsToShow={1}>

@@ -1,18 +1,26 @@
-import React from 'react';
+import React, { useMemo } from 'react';
+import moment from 'moment';
+import numeral from 'numeral'
+import {
+  Link
+} from "react-router-dom";
 import './PressReleaseCard.style.sass'
 
-function PressReleaseCard() {
+function PressReleaseCard({item}) {
+  const date = useMemo(()=>{
+    return moment(new Date(item.publishedAt))
+  },[item , moment])
   return (
-    <section style={{backgroundImage:'url(https://images.mktw.net/im-231687/social)'}} className={'press-release-card has-over-lay'}>
+    <section style={{backgroundImage:`url(${item.urlToImage})`}} className={'press-release-card has-over-lay'}>
       <div className={'over-lay'}>
           <div className={'press-release-card-inner'}>
               <div className={'date'}>
-                <div className={'day'}>02</div>
-                <div className={'month'}>December</div>
-                <div className={'day-name-and-year'}>Monday 2015</div>
+                  <div className={'day'}>{numeral(date.format('DD')).format('00')}</div>
+                  <div className={'month'}>{date.format('MMMM')}</div>
+                  <div className={'day-name-and-year'}>{date.format('dddd')} {date.format('yyyy')}</div>
               </div>
-              <p>7 Emirates Run raises AED60,000 for Al Jalila Foundation to support Sharjah toddler suffering from limb deformity.</p>
-              <button  className={'read-more-btn'}>Read More</button>
+            <p>{item.title}</p>
+              <Link   to={`/news-details/${item.id}`} className={'read-more-btn cursor-pointer'}>Read More</Link>
           </div>
       </div>
     </section>
