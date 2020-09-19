@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.sass';
-import { Achivements, Footer, Header, Navbar , PressReleases, Programs, Slider } from './components'
+import { Achivements, BreadCrumb, Footer, Header, Navbar , PressReleases, Programs, Slider } from './components'
 function App() {
   return (
     <div className="App">
        <Header/>
        <Navbar/>
-       <Slider/>
+       {/* <Slider/>
        <Achivements />
        <Programs />
-       <PressReleases />
+       <PressReleases /> */}
+       <BreadCrumb />
        <Footer/>
     </div>
   );
