@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.sass';
-import { Achivements, BreadCrumb, Footer, Header, Navbar , PressReleases, Programs, Slider } from './components'
+import { Achivements, BreadCrumb, Details, Footer, Header, Navbar , PressReleases, Programs, Slider } from './components'
 function App() {
   return (
     <div className="App">
@@ -11,6 +11,7 @@ function App() {
        <Programs />
        <PressReleases /> */}
        <BreadCrumb />
+       <Details />
        <Footer/>
     </div>
   );
