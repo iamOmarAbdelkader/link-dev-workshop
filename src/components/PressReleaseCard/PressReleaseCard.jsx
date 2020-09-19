@@ -5,11 +5,10 @@ import {
   Link
 } from "react-router-dom";
 import './PressReleaseCard.style.sass'
+import useParseNewsDate from '../../hooks/useParseNewsDate';
 
 function PressReleaseCard({item}) {
-  const date = useMemo(()=>{
-    return moment(new Date(item.publishedAt))
-  },[item , moment])
+  const date = useParseNewsDate(item.publishedAt)
   return (
     <section style={{backgroundImage:`url(${item.urlToImage})`}} className={'press-release-card has-over-lay'}>
       <div className={'over-lay'}>

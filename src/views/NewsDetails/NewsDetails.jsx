@@ -1,10 +1,20 @@
-import React from 'react';
-import './NewsDetails.style.sass'
-
+import React , { useState  ,  useEffect } from 'react';
+import { Details } from '../../components';
+import News from '../../models/news';
+import {
+  useParams
+} from "react-router-dom";
 const NewsDetails= ()=>{
 
-  return (<div  className={'home-page'}>
-  home
+  const [newsDetailsItem , setNewsDetailsItem] = useState()
+  let { id } = useParams();
+  useEffect(()=>{
+      const news = new News()
+      setNewsDetailsItem(news.findById(id))
+      console.log(news.findById(id))
+  },[])
+  return (<div  className={'news-details'}>
+      {newsDetailsItem?<Details item={newsDetailsItem} />:null}
     </div>             
   );
 }

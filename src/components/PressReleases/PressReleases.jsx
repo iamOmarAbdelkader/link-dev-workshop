@@ -1,5 +1,6 @@
 import React, { useEffect  , useState } from 'react';
 import PressReleaseCard from '../PressReleaseCard';
+import { Link } from 'react-router-dom'
 import './PressReleases.style.sass'
 import News from '../../models/news';
 
@@ -15,13 +16,14 @@ function PressReleases() {
         <div className={'press-releases-inner'}>
           <h2>
             <span>Our latest</span>
-            Press Releases
+            
+            <Link  to={'/news'}>Press Releases</Link>
           </h2>
           <div className={'cards-container'}>
             <div className={'row no-gutters'}>
               {homeNews.map((item , index)=> 
-                  <div className={'col-md-3 col-sm-6'}>
-                      <PressReleaseCard key={index}  item={item} />
+                  <div key={index} className={'col-md-3 col-sm-6'}>
+                      <PressReleaseCard   item={item} />
                   </div> 
               )}
             </div>
