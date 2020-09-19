@@ -54,7 +54,7 @@ function Details({item}) {
               <p className={'title'}>YOU MAY ALSO BE INTERESTED IN </p>
               <div className={'recommends'}>
                 <div className={'row'}>
-                      <div className={'col-md-4'}>
+                      <div className={'col-lg-4'}>
 
                                 <div  className={'item item-1'}>
                                     <div className={'inner'}>
@@ -69,7 +69,7 @@ function Details({item}) {
 
                       </div>
 
-                      <div className={'col-md-4'}>
+                      <div className={'col-lg-4'}>
                                 <div  className={'item item-2'}>
                             <div className={'inner'}>
                               <p className={'inner-title'}>Our Message</p>
@@ -82,7 +82,7 @@ function Details({item}) {
                           {/* ./item */}
 
                       </div>
-                      <div className={'col-md-4'}>
+                      <div className={'col-lg-4'}>
                         
                             <div  className={'item item-3'}>
                               <div className={'inner'}>
