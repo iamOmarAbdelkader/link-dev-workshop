@@ -35,17 +35,31 @@ footer#app-footer
                         .form-group
                             display: flex
                             margin-top: 15px
+                            @include tablet
+                                flex-direction: column
+                                text-align: center
+                            @include mobile
+                                flex-direction: column
+                                text-align: center
                             input
                               @extend .form-control
                               flex-grow: 1
                             button
                                 @extend .form-control
                                 background-color: $light-eastern-blue
+                                
                                 color: #fff
                                 flex-grow: 0.5
                                 display: flex
                                 justify-content: center
                                 align-items: center
+                                @include tablet
+                                    margin-top: 20px
+                                    width: 100px
+                                @include mobile
+                                    margin-top: 20px
+                                    width: 100px
+
         .lower
             background-color: $dark-eastern-blue
             padding: 25px 0

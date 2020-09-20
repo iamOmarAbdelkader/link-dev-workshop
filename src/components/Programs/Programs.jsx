@@ -27,7 +27,7 @@ function Programs() {
               <div className={"item bottom"}> 
                     <div className={'item-inner'}>
                     <img width={64} height={64} src={gift} alt={'gradution cap'} />
-                    <p>Ta’alouf</p>
+                    <p>Zakat</p>
                     <i className={'fa fa-plus fa-2x'}></i>
                   </div>
               </div>
@@ -38,14 +38,14 @@ function Programs() {
               <div className={"item up"}>
                  <div className={'item-inner'}>
                     <img width={93} height={85} src={heart} alt={'gradution cap'} />
-                    <p>Ta’alouf</p>
+                    <p>A’awen</p>
                     <i className={'fa fa-plus fa-2x'}></i>
                   </div>
               </div>
               <div className={"item bottom"}>
                  <div className={'item-inner'}>
                     <img width={45} height={69} src={flower} alt={'gradution cap'} />
-                    <p>Ta’alouf</p>
+                    <p>Fundraising</p>
                     <i className={'fa fa-plus fa-2x'}></i>
                   </div>
               </div>
@@ -55,7 +55,7 @@ function Programs() {
               <div className={"item up"}>
                  <div className={'item-inner'}>
                     <img width={84} height={75}  src={graduation} alt={'gradution cap'} />
-                    <p>Ta’alouf</p>
+                    <p>Scholarships</p>
                     <i className={'fa fa-plus fa-2x'}></i>
                   </div>
               </div>
@@ -68,17 +68,17 @@ function Programs() {
               </div>
             </div>
             <div className={"colum-container"}>
-              <div className={"item up"}>
+              <div className={"item up last-item"}>
                  <div className={'item-inner'}>
                     <img width={36} height={63} src={telescope} alt={'gradution cap'} />
-                    <p>Ta’alouf</p>
+                    <p>Omniyat Dania</p>
                     <i className={'fa fa-plus fa-2x'}></i>
                   </div>
               </div>
-              <div className={"item bottom visibility-hidden "}>
+              <div className={"item bottom for-demo "}>
                  <div className={'item-inner'}>
                     <img src={children} alt={'gradution cap'} />
-                    <p>Ta’alouf</p>
+                    <p>Medical Research</p>
                     <i className={'fa fa-plus fa-2x'}></i>
                   </div>
               </div>
