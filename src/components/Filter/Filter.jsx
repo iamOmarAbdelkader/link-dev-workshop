@@ -8,7 +8,10 @@ function Filter({setCategoryValue , setTitleValue }) {
   const [category , setCategory] = useState(SELECT_PLACEHOLDER)
   const [title , setTitle] = useState('')
   const news = useRef(new News())
-
+  
+  useEffect(()=>{
+    setCategories(news.current.getCategories())
+  },[])
 
 
 
@@ -22,35 +25,15 @@ function Filter({setCategoryValue , setTitleValue }) {
 
 
 
-  // custom search
-  const [ data , setData] = useState([])
-  const [ canLoadMore , setCanLoadMore] = useState(false)
-  useEffect(()=>{
-    setCategories(news.current.getCategories())
-  },[])
-  useEffect(()=>{
-    setData(news.current.whereTite(title).paginate())
-    setCanLoadMore(news.current.canLoadMore())
-  },[title , category])
-
-
-
-  const loadMore = useCallback(()=>{
-    let loaded = []
-    loaded = news.current.whereTite(title).paginate(true)
-    console.log(news.current , loaded , data)
-    setData([...loaded , ...data])
-  },[news , category , title,data]) 
 
 
 
 
   const submit = useCallback(()=>{
-    // if(!(category === SELECT_PLACEHOLDER)){
-      // setCategoryValue(category)
-    // }
-      // setTitleValue(title)
-      // alert('clicled')
+    if(!(category === SELECT_PLACEHOLDER)){
+      setCategoryValue(category)
+    }
+    setTitleValue(title)
   },[title , category , setCategoryValue , setTitleValue])
 
 
@@ -67,7 +50,7 @@ function Filter({setCategoryValue , setTitleValue }) {
           {/* <button onClick={loadMore}>loadMore</button> */}
           <div className={'col-md-4'}>
             <select value={category} onChange={handleChangeCategory} placeholder={'category'}  id={'select-category'} className={classNames('control',{'has-null-value': category == SELECT_PLACEHOLDER})}>
-              <option  value={SELECT_PLACEHOLDER}>Category </option>
+              <option  value={SELECT_PLACEHOLDER}>Category</option>
                   {categories.map((item , index)=> <option value={item.id} key={item.id}>{item.name}</option>)}
             </select> 
 

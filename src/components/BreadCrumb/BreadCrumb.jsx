@@ -19,7 +19,7 @@ function BreadCrumb({breadCrumbs}) {
                 {breadCrumbs.map((item , index)=>{
                   const isNotLastItem =  !(breadCrumbs.length   == index + 1)
                   return(
-                    <React.Fragment>
+                    <React.Fragment key={index}>
                           <p  className={classNames({'bread-crumb-label':true , 'active':!isNotLastItem})}>{item}</p>
                             {isNotLastItem ?<i className={'fa fa-chevron-right chevron'}></i>:null}
                       </React.Fragment>

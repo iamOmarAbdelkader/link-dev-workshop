@@ -6,6 +6,8 @@ class News {
     categoryId = undefined
     title = undefined
     offset = 0
+    cursor = 0
+    articles = []
     constructor(){
         // sort articles
         let articles = data.articles.sort((a , b)=> new Date(a.publishedAt) - new Date(b.publishedAt)).reverse()
@@ -51,15 +53,15 @@ class News {
         return this
     }
 
-    paginate(loadMore = false){
+    perform(loadMore = false){
         let query = null
         // search by title
-        if(this.title){
+        if(this.title != null){
             query = this.data.articles.filter((item)=> item.title.toLowerCase().includes(this.title.toLowerCase()))
         } 
         // search by category id
-        if(this.categoryId){
-            query = this.data.articles.filter((item)=> item.sourceID == this.categoryId)
+        if(this.categoryId != null){
+            query =query.filter((item)=> parseInt(item.sourceID) == parseInt(this.categoryId))
         }
 
         // check if the loadMore flag set as paginate
@@ -73,16 +75,16 @@ class News {
         }
 
         // check if can load more 
-      
-
-        return query.splice(this.offset , PER_PAGE);
+        this.articles =  query.splice(this.offset , PER_PAGE);
+        console.log('this.articles',this.articles)
+        return this
     }
 
     canLoadMore(){
-        if(this.offset >= this.data.articles.length){
-            return false;
+        if(this.articles.length < this.data.articles.length){
+            return true;
         }
-        return true
+        return false;
     }
 }
 

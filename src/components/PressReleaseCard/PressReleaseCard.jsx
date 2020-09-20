@@ -6,8 +6,9 @@ import {
 } from "react-router-dom";
 import './PressReleaseCard.style.sass'
 import useParseNewsDate from '../../hooks/useParseNewsDate';
+import classNames from 'classnames';
 
-function PressReleaseCard({item}) {
+function PressReleaseCard({item , easternBlueBtn}) {
   const date = useParseNewsDate(item.publishedAt)
   return (
     <section style={{backgroundImage:`url(${item.urlToImage})`}} className={'press-release-card has-over-lay'}>
@@ -19,7 +20,7 @@ function PressReleaseCard({item}) {
                   <div className={'day-name-and-year'}>{date.format('dddd')} {date.format('yyyy')}</div>
               </div>
             <p>{item.title}</p>
-              <Link   to={`/news-details/${item.id}`} className={'read-more-btn cursor-pointer'}>Read More</Link>
+              <Link   to={`/news-details/${item.id}`} className={classNames('read-more-btn cursor-pointer',{'eastern-blue':easternBlueBtn})}>Read More</Link>
           </div>
       </div>
     </section>
