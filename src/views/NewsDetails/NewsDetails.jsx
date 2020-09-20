@@ -1,9 +1,13 @@
 import React , { useState  ,  useEffect } from 'react';
-import { Details } from '../../components';
+import { BreadCrumb, Details } from '../../components';
 import News from '../../models/news';
 import {
   useParams
 } from "react-router-dom";
+
+const breadCrumbs = [
+  'Press Release',
+];
 const NewsDetails= ()=>{
 
   const [newsDetailsItem , setNewsDetailsItem] = useState()
@@ -14,7 +18,13 @@ const NewsDetails= ()=>{
       console.log(news.findById(id))
   },[])
   return (<div  className={'news-details'}>
-      {newsDetailsItem?<Details item={newsDetailsItem} />:null}
+   
+      {newsDetailsItem?
+      <React.Fragment>
+         <BreadCrumb breadCrumbs={[...breadCrumbs,newsDetailsItem.title]} />
+        <Details item={newsDetailsItem} />
+      </React.Fragment>
+      :null}
     </div>             
   );
 }

@@ -4,14 +4,11 @@ import classNames from 'classnames';
 import print from '../../assets/images/print.png';
 import envelop from '../../assets/images/envelop.png';
 import share from '../../assets/images/share.png';
-const breadCrumbs = [
-  'Press Release',
-  'Al Jalila Foundation awards AED 5 million to boost medical research in the UAE',
-];
-function BreadCrumb() {
+
+function BreadCrumb({breadCrumbs}) {
   return (
     <section id={'bread-crumb'}>
-      <div className={'container'}>
+      <div className={'container-fluid'}>
         <div className={'bread-crumb-inner'}>
           <div className={'bread-crumbs'}>
                 <p className={'bread-crumb-label'}>Home</p>
