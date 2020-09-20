@@ -8,7 +8,7 @@ export { default as PressReleaseCard } from "./PressReleaseCard";
 export { default as Programs } from "./Programs";
 export { default as BreadCrumb } from "./BreadCrumb";
 export { default as Details } from "./Details";
-// export { default as Details } from "./Details";
+export { default as Filter } from "./Filter";
 // export { default as Details } from "./Details";
 // export { default as Details } from "./Details";
 
