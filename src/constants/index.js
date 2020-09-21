@@ -8,3 +8,6 @@ export const TABLET_MAX_WIDTH_SCREEN_SIZE = '1024px';
 
 export const DESKTOP_MIN_WIDTH_SCREEN_SIZE = TABLET_MAX_WIDTH_SCREEN_SIZE + 1; // 1025
 
+export const PER_PAGE = 8;
+
+

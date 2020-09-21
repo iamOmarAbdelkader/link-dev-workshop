@@ -32,6 +32,8 @@ function Filter({setCategoryValue , setTitleValue }) {
   const submit = useCallback(()=>{
     if(!(category === SELECT_PLACEHOLDER)){
       setCategoryValue(category)
+    } else {
+      setCategoryValue(null)
     }
     setTitleValue(title)
   },[title , category , setCategoryValue , setTitleValue])

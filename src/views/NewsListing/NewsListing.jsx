@@ -2,6 +2,7 @@ import React, { useState , useEffect , useCallback , useRef } from 'react';
 import { Filter , BreadCrumb, PressReleaseCard } from '../../components';
 import './NewsListing.style.sass'
 import News from '../../models/news';
+import { PER_PAGE } from '../../constants';
 
 const NewsListing= ()=>{
 
@@ -11,25 +12,29 @@ const NewsListing= ()=>{
     const [ data , setData] = useState([])
     const [ canLoadMore , setCanLoadMore] = useState(false)
     const news = useRef(new News())
+    const [ offset , setOffset] = useState(0)
 
   
 
     useEffect(()=>{
       console.log('hereeee')
-      let _data = news.current.whereCategory(category).whereTite(title).perform().articles
-      setData(_data)
-      setCanLoadMore(news.current.canLoadMore())
-      console.log(news.current.canLoadMore() , news  , _data )
+      const _news = new News()
+      console.log(_news.search(title  , category ,0))
+      let res = _news.search(title  , category ,0)
+      setData(res.data)
+      setCanLoadMore(res.canLoadMore)
+      setOffset(offset + PER_PAGE)
     },[category,title])
   
   
   
     const loadMore = useCallback(()=>{
       let loaded = []
-      loaded = news.current.whereTite(title).perform(true).articles
-      setData([...loaded , ...data])
-      setCanLoadMore(news.current.canLoadMore())
-      console.log(news)
+      const _news = new News()
+      let res = _news.search(title  , category ,offset)
+      setOffset(offset + PER_PAGE)
+      setData([...res.data , ...data])
+      setCanLoadMore(res.canLoadMore)
     },[news ,data , setCanLoadMore]) 
 
     
@@ -46,7 +51,7 @@ const NewsListing= ()=>{
          <Filter setCategoryValue={setCategory} setTitleValue={setTitle}  />
          <div className={'container-fluid'}>
            <div className={'row'}>
-          {data.length?data.map((item,index)=><div key={item.id} className={'col-md-3'}> 
+          {data.length?data.map((item,index)=><div key={index} className={'col-md-3'}> 
               <div className={'press-release-container'}>
                  <PressReleaseCard easternBlueBtn item={item} />
               </div>
