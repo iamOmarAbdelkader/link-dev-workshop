@@ -1,4 +1,4 @@
-import React from 'react';
+import React , { useCallback } from 'react';
 import './Slider.style.sass'
 import Carousel from 'react-elastic-carousel'
 // ={({type, onClick}) => <div onClick={onClick}>{type ==='PREV' ? '<-' : '->'}</div>}
@@ -19,6 +19,10 @@ const Slide = ()=>(
   </div>
 ) 
 function Slider() {
+
+  const  scrollToAchievementsSection =  useCallback(()=>{
+            window.scrollTo({top:document.getElementById('achivements').offsetTop , behavior:'smooth'}); 
+  },[])
   return (
     <section id={'app-slider'}>
               <div className={'container-fluid'}>
@@ -32,12 +36,12 @@ function Slider() {
                   </div>
 
                   <div className={'scroll-down'}>
-                    <div className={'scroll-down-inner'}>
+                    <button onClick={scrollToAchievementsSection}  className={'scroll-down-inner'}>
                         <img  src={mouse} alt={'mouse scroll down'}/>
                         <span className={'line'}></span>
                         <span className={'rect'}></span>
                         <p>Scroll Down</p>
-                    </div>
+                    </button>
                   </div>
                 </div>
             </div>
