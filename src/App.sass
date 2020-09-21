@@ -1,10 +1,13 @@
-*
-    box-sizing: border-box
-body
-    margin: 0
-h1 , h2 , h3 , h4 , h5 ,h6
-    margin: 0
-ul
-    padding: 0
-p 
-    margin: 0
+@import './styles/_mixins'
+// over-ride bootrstrap container class
+.container-fluid
+    padding-right: 70px
+    padding-left: 70px
+    @include mobile
+        padding-right: 15px
+        padding-left: 15px
+    @include tablet
+        padding-right: 15px
+        padding-left: 15px
+        
+    
