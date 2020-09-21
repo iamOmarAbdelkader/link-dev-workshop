@@ -38,9 +38,6 @@ class News {
             query = query.filter((item)=> parseInt(item.sourceID) == parseInt(category))
         }
 
-
-
-        console.log(offset)
        return {
            data:  [...query.splice(offset , PER_PAGE)],
            offset,

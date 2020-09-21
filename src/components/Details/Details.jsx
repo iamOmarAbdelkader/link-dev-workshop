@@ -1,9 +1,6 @@
 import React from 'react';
 import './Details.style.sass'
-import classNames from 'classnames';
-import achievements from '../../assets/images/achievements.png';
 import download from '../../assets/images/download.png';
-import recommends1 from '../../assets/images/recommends1.png';
 import { useParseNewsDate } from '../../hooks';
 
 function Details({item}) {
