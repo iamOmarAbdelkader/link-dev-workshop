@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53019cbb08910b28847970afb4331b2b",
+    "revision": "da23f102f0635e27b3b649b1a4ff13b3",
     "url": "/link-dev-workshop/index.html"
   },
   {
-    "revision": "152e7e7b2c2afb2cf236",
-    "url": "/link-dev-workshop/static/css/main.4bf6ea1b.chunk.css"
+    "revision": "abebabb2fda165d2bbfd",
+    "url": "/link-dev-workshop/static/css/2.f87e9f44.chunk.css"
   },
   {
-    "revision": "8e3428e37943482ca255",
-    "url": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js"
+    "revision": "c957933ed830442567dc",
+    "url": "/link-dev-workshop/static/css/main.2fb801fb.chunk.css"
+  },
+  {
+    "revision": "abebabb2fda165d2bbfd",
+    "url": "/link-dev-workshop/static/js/2.01397648.chunk.js"
   },
   {
     "revision": "3098f83e5fa7a136279bcb0e71937139",
-    "url": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js.LICENSE.txt"
+    "url": "/link-dev-workshop/static/js/2.01397648.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "152e7e7b2c2afb2cf236",
-    "url": "/link-dev-workshop/static/js/main.8abb50ce.chunk.js"
+    "revision": "c957933ed830442567dc",
+    "url": "/link-dev-workshop/static/js/main.0aff4d10.chunk.js"
   },
   {
     "revision": "095b1ef42d5d873f02c7",
