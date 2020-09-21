@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/link-dev-workshop/static/css/main.625ec0e7.chunk.css",
+    "main.css": "/link-dev-workshop/static/css/main.6b6d4795.chunk.css",
     "main.js": "/link-dev-workshop/static/js/main.efa15ba8.chunk.js",
     "main.js.map": "/link-dev-workshop/static/js/main.efa15ba8.chunk.js.map",
     "runtime-main.js": "/link-dev-workshop/static/js/runtime-main.d39c41f3.js",
@@ -8,9 +8,9 @@
     "static/js/2.cbac29ce.chunk.js": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js",
     "static/js/2.cbac29ce.chunk.js.map": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js.map",
     "index.html": "/link-dev-workshop/index.html",
-    "precache-manifest.06a00513e92d16170b126c8ddc2a1f2d.js": "/link-dev-workshop/precache-manifest.06a00513e92d16170b126c8ddc2a1f2d.js",
+    "precache-manifest.129f1962e03b97d5914d172d683da0bd.js": "/link-dev-workshop/precache-manifest.129f1962e03b97d5914d172d683da0bd.js",
     "service-worker.js": "/link-dev-workshop/service-worker.js",
-    "static/css/main.625ec0e7.chunk.css.map": "/link-dev-workshop/static/css/main.625ec0e7.chunk.css.map",
+    "static/css/main.6b6d4795.chunk.css.map": "/link-dev-workshop/static/css/main.6b6d4795.chunk.css.map",
     "static/js/2.cbac29ce.chunk.js.LICENSE.txt": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js.LICENSE.txt",
     "static/media/index.sass": "/link-dev-workshop/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/Achivements.style.sass": "/link-dev-workshop/static/media/achievements.483dc2b0.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.d39c41f3.js",
     "static/js/2.cbac29ce.chunk.js",
-    "static/css/main.625ec0e7.chunk.css",
+    "static/css/main.6b6d4795.chunk.css",
     "static/js/main.efa15ba8.chunk.js"
   ]
 }
