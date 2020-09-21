@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a6cb95ad3a4af9db183c7c54ba006e7",
+    "revision": "b3c3b543bdf15e8a797a90e5ffecab04",
     "url": "/link-dev-workshop/index.html"
   },
   {
-    "revision": "69128fead4b97dc2c06b",
-    "url": "/link-dev-workshop/static/css/main.aa121f7a.chunk.css"
+    "revision": "d98689d95e855be66aae",
+    "url": "/link-dev-workshop/static/css/main.625ec0e7.chunk.css"
   },
   {
     "revision": "8e3428e37943482ca255",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "69128fead4b97dc2c06b",
+    "revision": "d98689d95e855be66aae",
     "url": "/link-dev-workshop/static/js/main.efa15ba8.chunk.js"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/link-dev-workshop/static/media/Segoe UI.623c7118.ttf"
   },
   {
-    "revision": "bc5b64f9455e3fa81d392a32864d01bb",
-    "url": "/link-dev-workshop/static/media/achievements.bc5b64f9.png"
+    "revision": "483dc2b0c6e0837b506dd7eb63289b11",
+    "url": "/link-dev-workshop/static/media/achievements.483dc2b0.png"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
