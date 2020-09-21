@@ -19,6 +19,7 @@ const NewsListing= ()=>{
     useEffect(()=>{
       console.log('hereeee')
       const _news = new News()
+      setOffset(0)
       console.log(_news.search(title  , category ,0))
       let res = _news.search(title  , category ,0)
       setData(res.data)
