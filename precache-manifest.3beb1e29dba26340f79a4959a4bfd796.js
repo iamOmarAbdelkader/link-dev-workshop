@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b29ae9f5d1597e0cfcd4c411dfa4a3ba",
+    "revision": "53019cbb08910b28847970afb4331b2b",
     "url": "/link-dev-workshop/index.html"
   },
   {
-    "revision": "aa2c062d2d60fc5109c3",
-    "url": "/link-dev-workshop/static/css/main.6b6d4795.chunk.css"
+    "revision": "152e7e7b2c2afb2cf236",
+    "url": "/link-dev-workshop/static/css/main.4bf6ea1b.chunk.css"
   },
   {
     "revision": "8e3428e37943482ca255",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa2c062d2d60fc5109c3",
-    "url": "/link-dev-workshop/static/js/main.efa15ba8.chunk.js"
+    "revision": "152e7e7b2c2afb2cf236",
+    "url": "/link-dev-workshop/static/js/main.8abb50ce.chunk.js"
   },
   {
     "revision": "095b1ef42d5d873f02c7",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/link-dev-workshop/static/media/Segoe UI.623c7118.ttf"
   },
   {
-    "revision": "483dc2b0c6e0837b506dd7eb63289b11",
-    "url": "/link-dev-workshop/static/media/achievements.483dc2b0.png"
+    "revision": "72389828a713b270d2d2888467f92998",
+    "url": "/link-dev-workshop/static/media/achievements.72389828.webp"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -64,11 +64,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/link-dev-workshop/static/media/linkdevlogo.ec52e9ad.png"
   },
   {
-    "revision": "6445843aa01613b661ed528bfb85a58d",
-    "url": "/link-dev-workshop/static/media/programs.6445843a.png"
+    "revision": "4c0502803707b1d1d796d3ba6867f54a",
+    "url": "/link-dev-workshop/static/media/programs.4c050280.webp"
   },
   {
-    "revision": "9fb47a18d1b56ee5fa250e3381729645",
-    "url": "/link-dev-workshop/static/media/sliderBg.9fb47a18.jpg"
+    "revision": "05e1336fac10756489678002fb45a3db",
+    "url": "/link-dev-workshop/static/media/recommends1.05e1336f.webp"
+  },
+  {
+    "revision": "8094f43e8280fc12245bf2ca3ea0589b",
+    "url": "/link-dev-workshop/static/media/recommends2.8094f43e.webp"
+  },
+  {
+    "revision": "a5b1dd8c820fbfcf7d2e09c9e253e5c2",
+    "url": "/link-dev-workshop/static/media/recommends3.a5b1dd8c.webp"
+  },
+  {
+    "revision": "664baa687ed46d034261f3db87fb38bf",
+    "url": "/link-dev-workshop/static/media/sliderBg.664baa68.webp"
   }
 ]);

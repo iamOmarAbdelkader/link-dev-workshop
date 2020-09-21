@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/link-dev-workshop/static/css/main.6b6d4795.chunk.css",
-    "main.js": "/link-dev-workshop/static/js/main.efa15ba8.chunk.js",
-    "main.js.map": "/link-dev-workshop/static/js/main.efa15ba8.chunk.js.map",
+    "main.css": "/link-dev-workshop/static/css/main.4bf6ea1b.chunk.css",
+    "main.js": "/link-dev-workshop/static/js/main.8abb50ce.chunk.js",
+    "main.js.map": "/link-dev-workshop/static/js/main.8abb50ce.chunk.js.map",
     "runtime-main.js": "/link-dev-workshop/static/js/runtime-main.d39c41f3.js",
     "runtime-main.js.map": "/link-dev-workshop/static/js/runtime-main.d39c41f3.js.map",
     "static/js/2.cbac29ce.chunk.js": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js",
     "static/js/2.cbac29ce.chunk.js.map": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js.map",
     "index.html": "/link-dev-workshop/index.html",
-    "precache-manifest.129f1962e03b97d5914d172d683da0bd.js": "/link-dev-workshop/precache-manifest.129f1962e03b97d5914d172d683da0bd.js",
+    "precache-manifest.3beb1e29dba26340f79a4959a4bfd796.js": "/link-dev-workshop/precache-manifest.3beb1e29dba26340f79a4959a4bfd796.js",
     "service-worker.js": "/link-dev-workshop/service-worker.js",
-    "static/css/main.6b6d4795.chunk.css.map": "/link-dev-workshop/static/css/main.6b6d4795.chunk.css.map",
+    "static/css/main.4bf6ea1b.chunk.css.map": "/link-dev-workshop/static/css/main.4bf6ea1b.chunk.css.map",
     "static/js/2.cbac29ce.chunk.js.LICENSE.txt": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js.LICENSE.txt",
     "static/media/index.sass": "/link-dev-workshop/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/Achivements.style.sass": "/link-dev-workshop/static/media/achievements.483dc2b0.png",
+    "static/media/Achivements.style.sass": "/link-dev-workshop/static/media/achievements.72389828.webp",
     "static/media/linkdevlogo.png": "/link-dev-workshop/static/media/linkdevlogo.ec52e9ad.png",
-    "static/media/Programs.style.sass": "/link-dev-workshop/static/media/programs.6445843a.png",
-    "static/media/Slider.style.sass": "/link-dev-workshop/static/media/sliderBg.9fb47a18.jpg"
+    "static/media/Programs.style.sass": "/link-dev-workshop/static/media/programs.4c050280.webp",
+    "static/media/Details.style.sass": "/link-dev-workshop/static/media/recommends3.a5b1dd8c.webp",
+    "static/media/Slider.style.sass": "/link-dev-workshop/static/media/sliderBg.664baa68.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.d39c41f3.js",
     "static/js/2.cbac29ce.chunk.js",
-    "static/css/main.6b6d4795.chunk.css",
-    "static/js/main.efa15ba8.chunk.js"
+    "static/css/main.4bf6ea1b.chunk.css",
+    "static/js/main.8abb50ce.chunk.js"
   ]
 }
