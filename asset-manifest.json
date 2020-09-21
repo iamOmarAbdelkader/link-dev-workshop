@@ -1,29 +1,27 @@
 {
   "files": {
-    "main.css": "/link-dev-workshop/static/css/main.860a2d04.chunk.css",
-    "main.js": "/link-dev-workshop/static/js/main.8194635b.chunk.js",
-    "main.js.map": "/link-dev-workshop/static/js/main.8194635b.chunk.js.map",
+    "main.css": "/link-dev-workshop/static/css/main.aa121f7a.chunk.css",
+    "main.js": "/link-dev-workshop/static/js/main.efa15ba8.chunk.js",
+    "main.js.map": "/link-dev-workshop/static/js/main.efa15ba8.chunk.js.map",
     "runtime-main.js": "/link-dev-workshop/static/js/runtime-main.d39c41f3.js",
     "runtime-main.js.map": "/link-dev-workshop/static/js/runtime-main.d39c41f3.js.map",
-    "static/js/2.232c865f.chunk.js": "/link-dev-workshop/static/js/2.232c865f.chunk.js",
-    "static/js/2.232c865f.chunk.js.map": "/link-dev-workshop/static/js/2.232c865f.chunk.js.map",
+    "static/js/2.cbac29ce.chunk.js": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js",
+    "static/js/2.cbac29ce.chunk.js.map": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js.map",
     "index.html": "/link-dev-workshop/index.html",
-    "precache-manifest.4142c743b4c24682b3d5accea399d2d4.js": "/link-dev-workshop/precache-manifest.4142c743b4c24682b3d5accea399d2d4.js",
+    "precache-manifest.93d48177870abc6a11e314de20f49f98.js": "/link-dev-workshop/precache-manifest.93d48177870abc6a11e314de20f49f98.js",
     "service-worker.js": "/link-dev-workshop/service-worker.js",
-    "static/css/main.860a2d04.chunk.css.map": "/link-dev-workshop/static/css/main.860a2d04.chunk.css.map",
-    "static/js/2.232c865f.chunk.js.LICENSE.txt": "/link-dev-workshop/static/js/2.232c865f.chunk.js.LICENSE.txt",
+    "static/css/main.aa121f7a.chunk.css.map": "/link-dev-workshop/static/css/main.aa121f7a.chunk.css.map",
+    "static/js/2.cbac29ce.chunk.js.LICENSE.txt": "/link-dev-workshop/static/js/2.cbac29ce.chunk.js.LICENSE.txt",
     "static/media/index.sass": "/link-dev-workshop/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/achievements.png": "/link-dev-workshop/static/media/achievements.bc5b64f9.png",
+    "static/media/Achivements.style.sass": "/link-dev-workshop/static/media/achievements.bc5b64f9.png",
     "static/media/linkdevlogo.png": "/link-dev-workshop/static/media/linkdevlogo.ec52e9ad.png",
     "static/media/Programs.style.sass": "/link-dev-workshop/static/media/programs.6445843a.png",
-    "static/media/recommends1.png": "/link-dev-workshop/static/media/recommends1.dc62daa6.png",
-    "static/media/Details.style.sass": "/link-dev-workshop/static/media/recommends3.d8dcbba7.png",
     "static/media/Slider.style.sass": "/link-dev-workshop/static/media/sliderBg.9fb47a18.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d39c41f3.js",
-    "static/js/2.232c865f.chunk.js",
-    "static/css/main.860a2d04.chunk.css",
-    "static/js/main.8194635b.chunk.js"
+    "static/js/2.cbac29ce.chunk.js",
+    "static/css/main.aa121f7a.chunk.css",
+    "static/js/main.efa15ba8.chunk.js"
   ]
 }
