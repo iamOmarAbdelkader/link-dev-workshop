@@ -7,14 +7,14 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import NewsListing from './views/NewsListing';
-import NewsDetails from './views/NewsDetails';
-import HomePage from './views/HomePage';
+const  NewsListing =  ()=> import('./views/NewsListing');
+const NewsDetails =  ()=>import('./views/NewsDetails');
+const HomePage = ()=> import('./views/HomePage')
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={'link-dev-workshop'}>
 
        <Header/>
        <Navbar/>
