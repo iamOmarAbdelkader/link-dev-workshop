@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/link-dev-workshop/static/css/main.a596dbdd.chunk.css",
-    "main.js": "/link-dev-workshop/static/js/main.5dfea315.chunk.js",
-    "main.js.map": "/link-dev-workshop/static/js/main.5dfea315.chunk.js.map",
+    "main.js": "/link-dev-workshop/static/js/main.c3eeb241.chunk.js",
+    "main.js.map": "/link-dev-workshop/static/js/main.c3eeb241.chunk.js.map",
     "runtime-main.js": "/link-dev-workshop/static/js/runtime-main.3da7c876.js",
     "runtime-main.js.map": "/link-dev-workshop/static/js/runtime-main.3da7c876.js.map",
     "static/js/2.8f76479c.chunk.js": "/link-dev-workshop/static/js/2.8f76479c.chunk.js",
@@ -19,7 +19,7 @@
     "static/js/6.3c405076.chunk.js": "/link-dev-workshop/static/js/6.3c405076.chunk.js",
     "static/js/6.3c405076.chunk.js.map": "/link-dev-workshop/static/js/6.3c405076.chunk.js.map",
     "index.html": "/link-dev-workshop/index.html",
-    "precache-manifest.15782a3a0cdc339dfd3c0f22b4b79404.js": "/link-dev-workshop/precache-manifest.15782a3a0cdc339dfd3c0f22b4b79404.js",
+    "precache-manifest.d7d31193fa9dade5495586fe495608b0.js": "/link-dev-workshop/precache-manifest.d7d31193fa9dade5495586fe495608b0.js",
     "service-worker.js": "/link-dev-workshop/service-worker.js",
     "static/css/3.f87e9f44.chunk.css.map": "/link-dev-workshop/static/css/3.f87e9f44.chunk.css.map",
     "static/css/4.cac68952.chunk.css.map": "/link-dev-workshop/static/css/4.cac68952.chunk.css.map",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.3da7c876.js",
     "static/js/2.8f76479c.chunk.js",
     "static/css/main.a596dbdd.chunk.css",
-    "static/js/main.5dfea315.chunk.js"
+    "static/js/main.c3eeb241.chunk.js"
   ]
 }
