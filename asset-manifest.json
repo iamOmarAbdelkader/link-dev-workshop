@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/link-dev-workshop/static/css/main.8990c76d.chunk.css",
+    "main.css": "/link-dev-workshop/static/css/main.a596dbdd.chunk.css",
     "main.js": "/link-dev-workshop/static/js/main.5dfea315.chunk.js",
     "main.js.map": "/link-dev-workshop/static/js/main.5dfea315.chunk.js.map",
     "runtime-main.js": "/link-dev-workshop/static/js/runtime-main.3da7c876.js",
@@ -19,12 +19,12 @@
     "static/js/6.3c405076.chunk.js": "/link-dev-workshop/static/js/6.3c405076.chunk.js",
     "static/js/6.3c405076.chunk.js.map": "/link-dev-workshop/static/js/6.3c405076.chunk.js.map",
     "index.html": "/link-dev-workshop/index.html",
-    "precache-manifest.4c50b07e90605772c9c849e991bb226c.js": "/link-dev-workshop/precache-manifest.4c50b07e90605772c9c849e991bb226c.js",
+    "precache-manifest.15782a3a0cdc339dfd3c0f22b4b79404.js": "/link-dev-workshop/precache-manifest.15782a3a0cdc339dfd3c0f22b4b79404.js",
     "service-worker.js": "/link-dev-workshop/service-worker.js",
     "static/css/3.f87e9f44.chunk.css.map": "/link-dev-workshop/static/css/3.f87e9f44.chunk.css.map",
     "static/css/4.cac68952.chunk.css.map": "/link-dev-workshop/static/css/4.cac68952.chunk.css.map",
     "static/css/5.10b05c93.chunk.css.map": "/link-dev-workshop/static/css/5.10b05c93.chunk.css.map",
-    "static/css/main.8990c76d.chunk.css.map": "/link-dev-workshop/static/css/main.8990c76d.chunk.css.map",
+    "static/css/main.a596dbdd.chunk.css.map": "/link-dev-workshop/static/css/main.a596dbdd.chunk.css.map",
     "static/js/2.8f76479c.chunk.js.LICENSE.txt": "/link-dev-workshop/static/js/2.8f76479c.chunk.js.LICENSE.txt",
     "static/media/index.sass": "/link-dev-workshop/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/Achivements.style.sass": "/link-dev-workshop/static/media/achievements.72389828.webp",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.3da7c876.js",
     "static/js/2.8f76479c.chunk.js",
-    "static/css/main.8990c76d.chunk.css",
+    "static/css/main.a596dbdd.chunk.css",
     "static/js/main.5dfea315.chunk.js"
   ]
 }
