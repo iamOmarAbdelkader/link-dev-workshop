@@ -10,4 +10,5 @@ export const DESKTOP_MIN_WIDTH_SCREEN_SIZE = TABLET_MAX_WIDTH_SCREEN_SIZE + 1; /
 
 export const PER_PAGE = 8;
 
+export const LOADER_COLOR = '#168D91';
 
