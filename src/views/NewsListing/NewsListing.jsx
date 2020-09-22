@@ -76,7 +76,7 @@ const NewsListing= ()=>{
                   <p>No Data To Show.</p>
               </div>  
           </div>:null}
-          <div className={'container-fluid'}>
+          <div className={'load-more-container'}>
               {canLoadMore && !loadMoreLoading && !fullPageLoading && data.length?
                 <button onClick={loadMore} id={'load-more'}>LOAD MORE</button>
               :null}
