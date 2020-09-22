@@ -21,7 +21,8 @@ const Slide = ()=>(
 function Slider() {
 
   const  scrollToAchievementsSection =  useCallback(()=>{
-            window.scrollTo({top:document.getElementById('achivements').offsetTop , behavior:'smooth'}); 
+    // 210 is nav height 
+            window.scrollTo({top:document.getElementById('achivements').offsetTop  -210, behavior:'smooth'}); 
   },[])
   return (
     <section id={'app-slider'}>
