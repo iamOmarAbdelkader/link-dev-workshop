@@ -1,7 +1,8 @@
 import data from '../data/newsapi.json'
 import { PER_PAGE } from '../constants';
+import moment from 'moment'
 const DATA = {
-    articles : data.articles.sort((a , b)=> new Date(a.publishedAt) - new Date(b.publishedAt)).reverse(),
+    articles : data.articles.sort((a , b)=>  moment.utc(a.publishedAt).diff(moment.utc(b.publishedAt))).reverse(),
     categories:data.sourceCategory
 }
 class News {

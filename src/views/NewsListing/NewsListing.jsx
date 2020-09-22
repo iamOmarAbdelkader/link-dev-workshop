@@ -14,7 +14,7 @@ const NewsListing= ()=>{
     const [ data , setData] = useState([])
     const [ canLoadMore , setCanLoadMore] = useState(false)
     const [ offset , setOffset] = useState(0)
-    const [ fullPageLoading , setFullPageLoading] = useState(false)
+    const [ fullPageLoading , setFullPageLoading] = useState(true)
     const [ loadMoreLoading , setLoadMoreLoading] = useState(false)
     
     useEffect(()=>{
@@ -25,10 +25,10 @@ const NewsListing= ()=>{
         let res = _news.search(title  , category ,0)
         setData(res.data)
         setCanLoadMore(res.canLoadMore)
-        setOffset(prev => prev + PER_PAGE)
         setFullPageLoading(false)
+        setOffset(prev => prev + PER_PAGE)
       }, 3000);
-    },[category,title,offset])
+    },[category,title])
   
   
   
@@ -39,10 +39,10 @@ const NewsListing= ()=>{
         const _news = new News()
         let res = _news.search(title  , category ,offset)
         setOffset(offset + PER_PAGE)
-        setData([...res.data , ...data])
+        setData([ ...data , ...res.data ])
         setCanLoadMore(res.canLoadMore)
         setLoadMoreLoading(false)
-      },3000)
+      },1000)
     },[data , setCanLoadMore , setLoadMoreLoading , title  , category ,offset]) 
 
     
@@ -55,18 +55,19 @@ const NewsListing= ()=>{
          <Filter setCategoryValue={setCategory} setTitleValue={setTitle}  />
          <div className={'container-fluid'}>
            <div className={'row'}>
-            {fullPageLoading? <div className={'col-sm-12'}>
+            {fullPageLoading?
+             <div className={'col-sm-12'}>
                <div className={'full-page-loader-container'}>
                <Loader
                   type="Oval"
                   color={LOADER_COLOR}
                   height={100}
                   width={100}
-                  visible={true}
+                  visible={fullPageLoading}
                 />
                 </div>
              </div>:null}
-          {data.length?data.map((item,index)=><div key={index} className={'col-md-3'}> 
+          {data.length && !fullPageLoading?data.map((item,index)=><div key={index} className={'col-md-3'}> 
               <div className={'press-release-container'}>
                  <PressReleaseCard easternBlueBtn item={item} />
               </div>
@@ -76,17 +77,17 @@ const NewsListing= ()=>{
               </div>  
           </div>:null}
           <div className={'container-fluid'}>
-              {canLoadMore && data.length?
+              {canLoadMore && !loadMoreLoading && !fullPageLoading && data.length?
                 <button onClick={loadMore} id={'load-more'}>LOAD MORE</button>
               :null}
 
-            {loadMoreLoading?<div className={'load-more-loader-container'}>
+            {loadMoreLoading ?<div className={'load-more-loader-container'}>
                 <Loader
                     type="Oval"
                     color={LOADER_COLOR}
                     height={50}
                     width={50}
-                    visible={true}
+                    visible={loadMoreLoading}
                   />
               </div>:null}
 
@@ -98,4 +99,4 @@ const NewsListing= ()=>{
   );
 }
 
-export default React.memo(NewsListing);
+export default NewsListing;

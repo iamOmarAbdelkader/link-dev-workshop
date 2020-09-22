@@ -29,4 +29,4 @@ const NewsDetails= ()=>{
   );
 }
 
-export default React.memo(NewsDetails);
+export default NewsDetails;
