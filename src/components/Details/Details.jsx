@@ -13,7 +13,7 @@ function Details({item}) {
             <h2 id={'title'}>PRESS RELEASE</h2>
               <div className={'detail-section'}>
                   <p className={'new'}>
-                        <img src={item.urlToImage} alt={'new descriptor image'} />
+                        <img src={item.urlToImage} alt={'new descriptor'} />
                         <span className={'title'}>{item.title}</span>
                         <span className={'published-at'}>{date.format('D MMMM yyyy')}</span>
                           {item.content}                         

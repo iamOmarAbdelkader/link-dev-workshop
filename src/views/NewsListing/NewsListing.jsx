@@ -1,4 +1,4 @@
-import React, { useState , useEffect , useCallback , useRef } from 'react';
+import React, { useState , useEffect , useCallback } from 'react';
 import { Filter , BreadCrumb, PressReleaseCard } from '../../components';
 import Loader from 'react-loader-spinner'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
@@ -13,7 +13,6 @@ const NewsListing= ()=>{
     // custom search
     const [ data , setData] = useState([])
     const [ canLoadMore , setCanLoadMore] = useState(false)
-    const news = useRef(new News())
     const [ offset , setOffset] = useState(0)
     const [ fullPageLoading , setFullPageLoading] = useState(false)
     const [ loadMoreLoading , setLoadMoreLoading] = useState(false)
@@ -23,14 +22,13 @@ const NewsListing= ()=>{
       setTimeout(() => {
         const _news = new News()
         setOffset(0)
-        console.log(_news.search(title  , category ,0))
         let res = _news.search(title  , category ,0)
         setData(res.data)
         setCanLoadMore(res.canLoadMore)
-        setOffset(offset + PER_PAGE)
+        setOffset(prev => prev + PER_PAGE)
         setFullPageLoading(false)
       }, 3000);
-    },[category,title])
+    },[category,title,offset])
   
   
   
@@ -38,7 +36,6 @@ const NewsListing= ()=>{
       setCanLoadMore(false)
       setLoadMoreLoading(true)
       setTimeout(()=>{
-        let loaded = []
         const _news = new News()
         let res = _news.search(title  , category ,offset)
         setOffset(offset + PER_PAGE)
@@ -46,7 +43,7 @@ const NewsListing= ()=>{
         setCanLoadMore(res.canLoadMore)
         setLoadMoreLoading(false)
       },3000)
-    },[news ,data , setCanLoadMore , setLoadMoreLoading]) 
+    },[data , setCanLoadMore , setLoadMoreLoading , title  , category ,offset]) 
 
     
 

@@ -1,5 +1,4 @@
-import React, { useMemo } from 'react';
-import moment from 'moment';
+import React from 'react';
 import numeral from 'numeral'
 import {
   Link

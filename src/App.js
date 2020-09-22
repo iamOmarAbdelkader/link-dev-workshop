@@ -1,11 +1,10 @@
 import React, { Suspense } from 'react';
 import './App.sass';
-import { Achivements, BreadCrumb, Details, Footer, Header, Navbar , PressReleases, Programs, Slider } from './components'
+import { Footer, Header, Navbar  } from './components'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 const  NewsListing =  React.lazy(()=> import('./views/NewsListing'));
 const NewsDetails =  React.lazy(()=>import('./views/NewsDetails'));

@@ -10,7 +10,7 @@ const renderArrow = ({type, onClick})=><div className={'arrow-container'} onClic
 const Slide = ()=>(
   <div  className={'slide-container'}>
        <div className={'top-icon'}>
-            <img src={graduation} alt={'gradution cap image'}/>
+            <img src={graduation} alt={'gradution cap'}/>
         </div>
         <div className={'slide has-over-lay'}>
           <div className={'over-lay'}>

@@ -17,11 +17,11 @@ function Filter({setCategoryValue , setTitleValue }) {
 
   const handleChangeCategory = useCallback((e)=>{
     setCategory(e.target.value || null)
-  },[category , setCategory])
+  },[setCategory])
 
   const handleChangeTitle = useCallback((e)=>{
     setTitle(e.target.value)
-  },[title , setTitle])
+  },[setTitle])
 
 
 
@@ -51,7 +51,7 @@ function Filter({setCategoryValue , setTitleValue }) {
 
           {/* <button onClick={loadMore}>loadMore</button> */}
           <div className={'col-md-4'}>
-            <select value={category} onChange={handleChangeCategory} placeholder={'category'}  id={'select-category'} className={classNames('control',{'has-null-value': category == SELECT_PLACEHOLDER})}>
+            <select value={category} onChange={handleChangeCategory} placeholder={'category'}  id={'select-category'} className={classNames('control',{'has-null-value': category === SELECT_PLACEHOLDER})}>
               <option  value={SELECT_PLACEHOLDER}>Category</option>
                   {categories.map((item , index)=> <option value={item.id} key={item.id}>{item.name}</option>)}
             </select> 

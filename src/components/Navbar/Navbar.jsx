@@ -32,7 +32,7 @@ function Navbar() {
                    <ul className={'nav-items desktop-menu'}>
                       {navItems.map(({name , children , url} , index)=>
                       <li key={index} className={'item cursor-pointer'}>
-                        {url?<Link to={url}>{name}</Link>:<a href={'#'}>{name}</a>}
+                        {url?<Link to={url}>{name}</Link>:<button href={'#'}>{name}</button>}
                         {children?<span className={'nav-arrow-container'}> <img  src={navArrowDown} alt={'nav arrow'}/> </span>:null}
                       </li>
                       )}
@@ -47,7 +47,7 @@ function Navbar() {
               <ul className={classNames('nav-items mobile-menu',{'is-open':isOpen})}>
                       {navItems.map(({name , children , url} , index)=>
                       <li key={index} className={'item cursor-pointer'}>
-                        {url?<Link to={url}>{name}</Link>:<a href={'#'}>{name}</a>}
+                        {url?<Link to={url}>{name}</Link>:<button href={'#'}>{name}</button>}
                         {children?<span className={'nav-arrow-container'}> <img  src={navArrowDown} alt={'nav arrow'}/> </span>:null}
                       </li>
                       )}

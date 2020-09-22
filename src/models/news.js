@@ -10,10 +10,6 @@ class News {
     offset = 0
     cursor = 0
     articles = []
-    constructor(){
-        // sort articles
-    }
-
     getHomeNews(){
         let articles =  [...DATA.articles]
         return articles.filter(({showOnHomepage})=> showOnHomepage)
@@ -21,7 +17,7 @@ class News {
 
     findById(toFindId){
         let articles = [...DATA.articles]
-        return articles.find(({id})=> id == toFindId)
+        return articles.find(({id})=> parseInt(id) === parseInt(toFindId))
     }
 
     getCategories(){
@@ -35,7 +31,7 @@ class News {
         } 
         // search by category id
         if(category && query != null){
-            query = query.filter((item)=> parseInt(item.sourceID) == parseInt(category))
+            query = query.filter((item)=> parseInt(item.sourceID) === parseInt(category))
         }
 
        return {
