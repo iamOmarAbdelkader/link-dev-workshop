@@ -12,12 +12,14 @@ const HomePage = React.lazy(()=> import('./views/HomePage'))
 function App() {
   return (
     <div className="App">
-      <Suspense fallback={<div>faild to load app</div>}>
+      <Suspense fallback={<div>loading...</div>}>
 
       <Router basename={'link-dev-workshop'}>
 
-       <Header/>
-       <Navbar/>
+      <div className={'fixed-nav'}>
+          <Header/>
+          <Navbar/>
+      </div>
        {/* <Slider/>
        <Achivements />
        <Programs />

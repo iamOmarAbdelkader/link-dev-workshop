@@ -4,66 +4,74 @@
 nav#app-nav
     background-color: $gray
     padding: 16px 0;
-    .toggle-menu
-        outline: 0
-        border: none
-        background-color: transparent
-        @include desktop
+    height: 60px
+    .container-fluid
+        background-color: $gray
+        .toggle-menu
+            outline: 0
+            border: none
+            background-color: transparent
             display: none
-
-    .nav-inner
-        .left
-            .menu-icon
-                color: $eastern-blue
-    .nav-items
-        padding: 0
-        list-style-type: none
-        flex: 0.75
-        margin: 0
-        &.desktop-menu
-            @include tablet
-                display: none
             @include mobile
-                display: none
-        &.mobile-menu
-            height: 0
-            overflow: hidden
-            @include desktop
-                display: none
-            &.is-open
-                height: auto
                 display: block
+            @include tablet
+                display: block
+                
+
+        .nav-inner
+            background-color: $gray
+            .left
+                .menu-icon
+                    color: $eastern-blue
+        .nav-items
+            padding: 0
+            list-style-type: none
+            flex: 0.75
+            margin: 0
+            &.desktop-menu
+                @include tablet
+                    display: none
+                @include mobile
+                    display: none
+            &.mobile-menu
+                height: 0
+                overflow: hidden
                 @include desktop
                     display: none
+                &.is-open
+                    height: auto
+                    display: block
+                    @include desktop
+                        display: none
 
-        .item
-            display: inline-block
-            margin-right: 35px
-            
-            @include tablet
-                display: block
-                margin: 0
-                padding-top: 15px
-                padding-bottom: 10px
-            @include mobile
-                display: block
-                margin: 0
-                padding-top: 15px
-                padding-bottom: 10px
-            button , a
-                outline: 0
-                background: none
-                border: none
-                font-family: $font-optima
-                font-size: 18px
-                color: $eastern-blue
-                text-transform: capitalize
-                text-decoration: none
-            &:last-child
-                margin-right: 0
-            .nav-arrow-container
+            .item
                 display: inline-block
-                margin-left: 8px
-                    
+                margin-right: 35px
+                
+                @include tablet
+                    display: block
+                    margin: 0
+                    padding-top: 15px
+                    padding-bottom: 10px
+                @include mobile
+                    display: block
+                    margin: 0
+                    padding-top: 15px
+                    padding-bottom: 10px
+                button , a
+                    outline: 0
+                    background: none
+                    border: none
+                    font-family: $font-optima
+                    font-size: 18px
+                    color: $eastern-blue
+                    text-transform: capitalize
+                    text-decoration: none
+                &:last-child
+                    margin-right: 0
+                .nav-arrow-container
+                    display: inline-block
+                    margin-left: 8px
+                        
 
-       
+        

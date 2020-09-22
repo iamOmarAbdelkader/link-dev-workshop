@@ -28,7 +28,7 @@ function Slider() {
               <div className={'container-fluid'}>
                 <div className={'slider-inner'}>
                   <div className={'carousel-container'}>
-                      <Carousel enableAutoPlay={true} renderArrow={renderArrow}  pagination={false} itemsToShow={1}>
+                      <Carousel  renderArrow={renderArrow}  pagination={false} itemsToShow={1}>
                           <Slide />
                           <Slide />
                           <Slide />

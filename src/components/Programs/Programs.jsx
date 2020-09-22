@@ -68,20 +68,20 @@ function Programs() {
               </div>
             </div>
             <div className={"colum-container"}>
-              <div className={"item up last-item"}>
+              <div className={"item up last-item item-in-last-column"}>
                  <div className={'item-inner'}>
                     <img width={36} height={63} src={telescope} alt={'gradution cap'} />
                     <p>Omniyat Dania</p>
                     <i className={'fa fa-plus fa-2x'}></i>
                   </div>
               </div>
-              <div className={"item bottom for-demo "}>
+              {/* <div className={"item bottom for-demo "}>
                  <div className={'item-inner'}>
                     <img src={children} alt={'gradution cap'} />
                     <p>Medical Research</p>
                     <i className={'fa fa-plus fa-2x'}></i>
                   </div>
-              </div>
+              </div> */}
             </div>  
           </div>
 
