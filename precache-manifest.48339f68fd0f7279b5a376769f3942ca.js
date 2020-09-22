@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e3dc13d47c528e4214213219f9630469",
+    "revision": "ce886f104b2f582ae0943a8d7be40c85",
     "url": "/link-dev-workshop/index.html"
   },
   {
@@ -8,48 +8,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/link-dev-workshop/static/css/3.f87e9f44.chunk.css"
   },
   {
-    "revision": "25d0fed2d0d6ada9b3a3",
+    "revision": "4c3ade06ad2ff767524f",
     "url": "/link-dev-workshop/static/css/4.cac68952.chunk.css"
   },
   {
-    "revision": "eef945f2b38d3db1e588",
+    "revision": "9491b02989f9a1157891",
     "url": "/link-dev-workshop/static/css/5.10b05c93.chunk.css"
   },
   {
-    "revision": "5e7b3f2cb854c9de1fd6",
-    "url": "/link-dev-workshop/static/css/main.a596dbdd.chunk.css"
+    "revision": "a2db91b6dd7e428a4394",
+    "url": "/link-dev-workshop/static/css/main.6e125644.chunk.css"
   },
   {
-    "revision": "a38c128c2afa86d70847",
-    "url": "/link-dev-workshop/static/js/2.8f76479c.chunk.js"
+    "revision": "f9b05490057af498e40b",
+    "url": "/link-dev-workshop/static/js/2.17182b5d.chunk.js"
   },
   {
     "revision": "3098f83e5fa7a136279bcb0e71937139",
-    "url": "/link-dev-workshop/static/js/2.8f76479c.chunk.js.LICENSE.txt"
+    "url": "/link-dev-workshop/static/js/2.17182b5d.chunk.js.LICENSE.txt"
   },
   {
     "revision": "af912306f464fa0b61a1",
     "url": "/link-dev-workshop/static/js/3.ead950f5.chunk.js"
   },
   {
-    "revision": "25d0fed2d0d6ada9b3a3",
-    "url": "/link-dev-workshop/static/js/4.35202dba.chunk.js"
+    "revision": "4c3ade06ad2ff767524f",
+    "url": "/link-dev-workshop/static/js/4.2872e7c2.chunk.js"
   },
   {
-    "revision": "eef945f2b38d3db1e588",
-    "url": "/link-dev-workshop/static/js/5.f08ad7c2.chunk.js"
+    "revision": "9491b02989f9a1157891",
+    "url": "/link-dev-workshop/static/js/5.da096fba.chunk.js"
   },
   {
-    "revision": "faa0f64288f8401aa4ba",
-    "url": "/link-dev-workshop/static/js/6.3c405076.chunk.js"
+    "revision": "d2ecccb641dc07683a6f",
+    "url": "/link-dev-workshop/static/js/6.9480fea1.chunk.js"
   },
   {
-    "revision": "5e7b3f2cb854c9de1fd6",
-    "url": "/link-dev-workshop/static/js/main.c3eeb241.chunk.js"
+    "revision": "a2db91b6dd7e428a4394",
+    "url": "/link-dev-workshop/static/js/main.9205d12a.chunk.js"
   },
   {
-    "revision": "b18d8339f668f4d0c23d",
-    "url": "/link-dev-workshop/static/js/runtime-main.3da7c876.js"
+    "revision": "883f54a319aa1f36f451",
+    "url": "/link-dev-workshop/static/js/runtime-main.44f4c054.js"
   },
   {
     "revision": "5d7c31b284ddb01fc1cbae0edc9ec210",

@@ -1,2 +1,0 @@
-(this["webpackJsonplink-workshop"]=this["webpackJsonplink-workshop"]||[]).push([[4],{104:function(e,n,t){},107:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return r}));var a=t(0),l=t.n(a),c=(t(104),t(17)),o=t(33),r=l.a.memo((function(){return Object(a.useEffect)((function(){var e=new o.a;console.log(e.data,e.getHomeNews())}),[]),l.a.createElement("div",{className:"home-page"},l.a.createElement(c.k,null),l.a.createElement(c.a,null),l.a.createElement(c.j,null),l.a.createElement(c.i,null))}))}}]);
-//# sourceMappingURL=4.35202dba.chunk.js.map
