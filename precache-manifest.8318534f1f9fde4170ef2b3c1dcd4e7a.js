@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df15c1abe02ea120a4533ed2c8698c5d",
+    "revision": "1fd4433ee1a8cd233fcddf3251da0212",
     "url": "/link-dev-workshop/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/link-dev-workshop/static/css/4.cac68952.chunk.css"
   },
   {
-    "revision": "9491b02989f9a1157891",
-    "url": "/link-dev-workshop/static/css/5.10b05c93.chunk.css"
+    "revision": "bcbe5a52345e21e6bb33",
+    "url": "/link-dev-workshop/static/css/5.d1fd89ed.chunk.css"
   },
   {
     "revision": "6db9ec7c7f29c556f311",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/link-dev-workshop/static/js/4.b6e28692.chunk.js"
   },
   {
-    "revision": "9491b02989f9a1157891",
-    "url": "/link-dev-workshop/static/js/5.da096fba.chunk.js"
+    "revision": "bcbe5a52345e21e6bb33",
+    "url": "/link-dev-workshop/static/js/5.65672d6b.chunk.js"
   },
   {
     "revision": "d2ecccb641dc07683a6f",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/link-dev-workshop/static/js/main.ae520748.chunk.js"
   },
   {
-    "revision": "4fd6e03d138ad9586c8a",
-    "url": "/link-dev-workshop/static/js/runtime-main.5bde4849.js"
+    "revision": "73e15f68afc154211dbf",
+    "url": "/link-dev-workshop/static/js/runtime-main.e358fdd6.js"
   },
   {
     "revision": "5d7c31b284ddb01fc1cbae0edc9ec210",
