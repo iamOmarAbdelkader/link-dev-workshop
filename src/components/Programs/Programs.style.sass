@@ -15,6 +15,13 @@ section#programs
     .container-fluid
         padding-left: 80px
         padding-right: 80px
+        @include tablet
+                padding-left: 40px
+                padding-right: 40px
+        @include mobile
+            padding-left: 40px
+            padding-right: 40px
+
     .programs-inner
         position: relative
         h2
