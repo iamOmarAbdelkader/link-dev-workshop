@@ -15,7 +15,7 @@ const NewsDetails= ()=>{
   useEffect(()=>{
       const news = new News()
       setNewsDetailsItem(news.findById(id))
-      console.log(news.findById(id))
+      // console.log(news.findById(id))
   },[id])
   return (<div  className={'news-details'}>
    

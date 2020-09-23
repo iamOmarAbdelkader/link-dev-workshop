@@ -5,11 +5,7 @@ import { News } from '../../models';
 
 const HomePage= ()=>{
 
-  useEffect(() => {
-      const news = new News()
-      console.log(news.data , news.getHomeNews())
-    
-  }, []);
+
   return (<div  className={'home-page'}>
          <Slider/>
        <Achivements />
