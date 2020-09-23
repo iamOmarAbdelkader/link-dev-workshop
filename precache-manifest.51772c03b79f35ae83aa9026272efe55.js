@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c59ec6ef0919280b04bf4d98d7031a38",
+    "revision": "c9e0ab23565d7d74737d0aa0001d563e",
     "url": "/link-dev-workshop/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/link-dev-workshop/static/css/3.f87e9f44.chunk.css"
   },
   {
-    "revision": "dad8baa3e436f038afce",
+    "revision": "a7859ed51dbfeafca0bd",
     "url": "/link-dev-workshop/static/css/4.cac68952.chunk.css"
   },
   {
@@ -32,24 +32,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/link-dev-workshop/static/js/3.ead950f5.chunk.js"
   },
   {
-    "revision": "dad8baa3e436f038afce",
-    "url": "/link-dev-workshop/static/js/4.b6e28692.chunk.js"
+    "revision": "a7859ed51dbfeafca0bd",
+    "url": "/link-dev-workshop/static/js/4.b0fd4fd6.chunk.js"
   },
   {
     "revision": "bcbe5a52345e21e6bb33",
     "url": "/link-dev-workshop/static/js/5.65672d6b.chunk.js"
   },
   {
-    "revision": "d2ecccb641dc07683a6f",
-    "url": "/link-dev-workshop/static/js/6.9480fea1.chunk.js"
+    "revision": "f8c29f86d87ffcea07b1",
+    "url": "/link-dev-workshop/static/js/6.76c1bd1c.chunk.js"
   },
   {
     "revision": "c8bc62b66510d0c3e09f",
     "url": "/link-dev-workshop/static/js/main.ae520748.chunk.js"
   },
   {
-    "revision": "73e15f68afc154211dbf",
-    "url": "/link-dev-workshop/static/js/runtime-main.e358fdd6.js"
+    "revision": "f346d91834ca49d1f28e",
+    "url": "/link-dev-workshop/static/js/runtime-main.08b79042.js"
   },
   {
     "revision": "5d7c31b284ddb01fc1cbae0edc9ec210",

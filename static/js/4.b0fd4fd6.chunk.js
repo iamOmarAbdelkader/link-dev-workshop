@@ -1,0 +1,2 @@
+(this["webpackJsonplink-workshop"]=this["webpackJsonplink-workshop"]||[]).push([[4],{104:function(e,n,t){},107:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return c}));var a=t(0),l=t.n(a),r=(t(104),t(18)),c=(t(32),l.a.memo((function(){return l.a.createElement("div",{className:"home-page"},l.a.createElement(r.k,null),l.a.createElement(r.a,null),l.a.createElement(r.j,null),l.a.createElement(r.i,null))})))}}]);
+//# sourceMappingURL=4.b0fd4fd6.chunk.js.map
