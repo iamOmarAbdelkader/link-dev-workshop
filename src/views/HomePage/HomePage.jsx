@@ -1,7 +1,6 @@
 import React from 'react';
 import './HomePage.style.sass'
 import { Achivements, PressReleases, Programs, Slider } from '../../components'
-import { News } from '../../models';
 
 const HomePage= ()=>{
 
